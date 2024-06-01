@@ -1,8 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-namespace Utilities.Singletons
+namespace Game.Utilities.Singletons
 {
     public class PersistentSingleton<T> : MonoBehaviour  where T : Component
     {
